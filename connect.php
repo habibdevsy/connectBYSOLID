@@ -5,10 +5,10 @@ interface ConnectInterface{
 }
 
 class ConnectMysql implements ConnectInterface{
-	protected $servername= "localhost";
-	protected $username= "root";
-	protected $pass= "root";
-	protected $dbname= "testdb";
+	protected $servername;
+	protected $username;
+	protected $pass;
+	protected $dbname;
     public $conn; 
 	public function connect($servername, $username, $pass, $dbname){
 		
