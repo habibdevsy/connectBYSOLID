@@ -24,7 +24,7 @@ class ConnectMysql implements ConnectInterface{
 
 }
 $con = new ConnectMysql();
-$con->connect("localhost", "root", "root", "testdb");
+$con->connect("hostname", "username", "password", "DataBasename";
 
 
 	
