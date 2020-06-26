@@ -1,8 +1,5 @@
 <?php
-interface ConnectInterface{
-	public function connect($servername, $username, $pass, $dbname);
-
-}
+include ('interfaceCon.php');
 
 class ConnectMysql implements ConnectInterface{
 	protected $servername;
