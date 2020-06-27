@@ -5,5 +5,7 @@ Open the connect file and on the last line enter the connection information for 
 $con->connect("hostname", "username", "password", "DataBase name").
  
  Open Postman type your app’s url and:
+In the body part, paste the link of the file named api.php.
 
- in the body section give it the keys {first_name, last_name, age} with the values For new user.
+if you want "POST" must to enter :  {first_name, last_name, age} with the values For new user.
+or "GET" without data.
